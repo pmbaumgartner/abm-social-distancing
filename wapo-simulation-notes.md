@@ -32,3 +32,4 @@
 - Review linear algebra / norm 
   - Understand how the movement heading is actually calculated and what each of these steps do
 - Add type hints via mypy / refactor
+- Fix plotly animation - check out: https://plot.ly/python/animations/#using-a-slider-and-buttons
