@@ -144,3 +144,5 @@ static
 
 # animation files dir
 animation/
+
+.vscode/
