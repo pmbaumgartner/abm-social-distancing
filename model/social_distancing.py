@@ -22,6 +22,7 @@ class FlatAgentData:
     `social_distancing` gets converted to an int"""
 
     unique_id: int
+    step: int
     state: State
     x: float
     y: float
@@ -160,6 +161,7 @@ class PersonAgent(Agent):
         data = FlatAgentData(
             **{
                 "unique_id": self.unique_id,
+                "step": self.model.schedule.steps,
                 "state": self.state,
                 "x": self.pos[0],
                 "y": self.pos[1],
